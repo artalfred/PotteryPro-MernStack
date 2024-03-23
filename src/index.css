@@ -87,8 +87,18 @@
 }
 
 /* //////////////////////////////////////////// */
-/* SECTION 2 */
+/* HOME SECTION 2 */
 /* //////////////////////////////////////////// */
 .section--offer {
   background-color: #fffcf9;
+}
+
+/* //////////////////////////////////////////// */
+/* HOME SECTION 3 */
+/* //////////////////////////////////////////// */
+.section--learn {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./assets/Home/learn.jpg");
 }

@@ -4,7 +4,7 @@ import NavMobile from "./NavMobile";
 
 const Navigation = () => {
   return (
-    <nav className="nav w-full sm:px-[2rem] md:px-[3rem] lg:px-[6rem] bg-transparent absolute">
+    <nav className="nav w-full sm:px-[1rem] md:px-[3rem] 2xl:px-[6rem] bg-transparent absolute">
       <div className="flex items-center justify-between w-full nav-desktop mx-auto ">
         <div>
           <ul className="flex gap-[4rem]">
@@ -23,7 +23,7 @@ const Navigation = () => {
         </div>
 
         <div>
-          <ul className="flex  gap-[4rem]">
+          <ul className="flex gap-[4rem]">
             <li className="text-white text-[14px] font-medium">BLOG</li>
             <li className="text-white text-[14px] font-medium">EVENTS</li>
             <li className="text-white text-[14px] font-medium">COURSES</li>

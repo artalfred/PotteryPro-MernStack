@@ -16,9 +16,16 @@
   color: #543115;
 }
 
+/* //////////////////////////////////////////// */
+/* FONT FAMILY */
+/* //////////////////////////////////////////// */
 .tauri {
   font-family: "Tauri", sans-serif;
   font-style: normal;
+}
+
+.Dm-body {
+  font-family: "DM Sans", sans-serif;
 }
 
 .nav-desktop {
@@ -51,21 +58,32 @@
   background-repeat: no-repeat;
 }
 
-.main-button {
-  padding: 0.5rem 4rem 0.5rem 4rem;
-  border: 1px solid #fff;
-  border-radius: 28px;
-}
-
 /* //////////////////////////////////////////// */
 /* BUTTON STYLES */
 /* //////////////////////////////////////////// */
+.main-button {
+  padding: 0.5rem 4rem 0.5rem 4rem;
+  border-radius: 28px;
+}
+
 .bg-brown {
   background-color: #543115;
 }
 
 .bg-light {
   background-color: #ffffff;
+}
+
+.bg-semilight {
+  background-color: #fffcf9;
+}
+
+.btnLight:hover {
+  background-color: #bdb6a1;
+}
+
+.btnDark:hover {
+  background-color: #634c2e;
 }
 
 /* //////////////////////////////////////////// */

@@ -12,7 +12,7 @@ function Home() {
           </h1>
 
           <div className="flex justify-center mt-6">
-            <p className="w-75 text-white sm:w-full md:w-3/4 lg:w-2/4  text-center">
+            <p className="w-75 text-white sm:w-full md:w-3/4 lg:w-2/4  text-center Dm-body font-light">
               Welcome to Artful PotteryPro, where artistry meets functionality.
               Explore our collection of meticulously crafted ceramics, blending
               tradition with modernity. From elegant dinnerware to bespoke art
@@ -22,7 +22,12 @@ function Home() {
           </div>
 
           <div className="flex justify-center mt-6">
-            <Button btnName="Explore" btnBackground="light" color={"dark"} />
+            <Button
+              btnName="EXPLORE"
+              btnBackground="light"
+              color={"dark"}
+              btnHover={"btnLight"}
+            />
           </div>
         </div>
       </div>
@@ -35,7 +40,7 @@ function Home() {
             <h2 className="brown-dark text-5xl mt-4">
               Ceramic Session To Melt Away The Excess Stress
             </h2>
-            <p className="mt-4 brown-dark">
+            <p className="mt-4 brown-dark Dm-body">
               Indulge in a rejuvenating ceramic session designed to melt away
               the excess stress and transport you to a realm of tranquility and
               creativity. Immerse yourself in the therapeutic art of pottery,
@@ -43,7 +48,7 @@ function Home() {
               creation is a testament to your inner peace.
             </p>
 
-            <p className="mt-4 brown-dark">
+            <p className="mt-4 brown-dark Dm-body">
               Join us on a journey of self-discovery and relaxation as you mold,
               shape, and sculpt your worries away. Whether you're a seasoned
               ceramic artist or a curious beginner, our expert instructors will
@@ -52,7 +57,7 @@ function Home() {
               fades into the background.
             </p>
 
-            <p className="mt-4 brown-dark">
+            <p className="mt-4 brown-dark Dm-body">
               Experience the soothing sensation of clay beneath your fingertips,
               the gentle rhythm of the wheel spinning beneath your hands, and
               the joy of seeing your visions come to life in tangible form. Step
@@ -66,6 +71,7 @@ function Home() {
                 btnName={"LEARN ABOUT US"}
                 btnBackground={"brown"}
                 color={"white"}
+                btnHover={"btnDark"}
               />
             </div>
           </div>

@@ -121,3 +121,11 @@
     background-repeat: no-repeat;
   }
 }
+
+.section--sactuary {
+  @media (max-width: 1023px) {
+    background-image: url("./assets/Home/Sactuary.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}

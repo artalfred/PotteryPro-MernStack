@@ -22,9 +22,11 @@ function Content({
 
       <p className="mt-4 brown-dark Dm-body">{DescriptionTwo}</p>
 
-      <p className="mt-4 brown-dark Dm-body">{DescriptionThree}</p>
+      <p className={`mt-${!btnName ? 0 : 4} brown-dark Dm-body`}>
+        {DescriptionThree}
+      </p>
 
-      <div className="mt-6">
+      <div className={`mt-${!btnName ? 0 : 6}`}>
         <Button
           btnName={btnName}
           btnBackground={btnBackground}

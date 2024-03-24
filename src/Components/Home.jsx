@@ -5,6 +5,7 @@ import Content from "../Reusable/Content";
 import Offer from "../assets/Home/Offer.png";
 import LearnImage from "../assets/Home/learnImage.jpg";
 import Events from "../assets/Home/Events.jpg";
+import Sactuary from "../assets/Home/Sactuary.jpg";
 
 function Home() {
   return (
@@ -117,8 +118,8 @@ function Home() {
 
       {/* SECTION 5 */}
       <div className="section--events relative">
-        <div className="grid 2xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-8 lg:gap-24 items-center">
-          <div className="pl-[1rem] md:pl-[4rem] 2xl:pl-[6rem] hidden md:hidden lg:block 2xl:block">
+        <div className="grid 2xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1  items-center">
+          <div className="px-[1rem] md:px-[4rem] 2xl:px-[6rem] hidden md:hidden lg:block 2xl:block">
             <Content
               subTitle={"HOW TO GET STARTED"}
               Title={"Feel Good Pottery For beginners"}
@@ -175,6 +176,195 @@ function Home() {
                   color={"white"}
                   btnHover={"btnDark"}
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* SECTION 6 */}
+      <div className="section--sactuary relative">
+        <div className="grid 2xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1  items-center">
+          <div className="2xl:block lg:block md:hidden hidden">
+            <img src={Sactuary} alt="Join Events Our Now" />
+          </div>
+
+          <div className="justify-center px-[1rem] md:px-[4rem] 2xl:px-[6rem] hidden md:hidden lg:block 2xl:block">
+            <Content
+              Title={
+                "Our Little Sactuary In The heart Of Art & Our Commitment To Help The Community"
+              }
+              DescriptionOne={
+                "Discover our sanctuary nestled in the heart of art, where creativity thrives and community flourishes. With a steadfast commitment to uplifting our community, we strive to make a positive impact through art, collaboration, and support. "
+              }
+              DescriptionTwo={
+                "Join us in fostering connections, celebrating diversity, and spreading joy through our shared passion for creativity."
+              }
+            />
+
+            <div className="grid gap-3 grid-cols-2">
+              <div className="flex items-center gap-3 brown-dark">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+
+                <p className="Dm-body">ECO-FRIENDLY</p>
+              </div>
+              <div className="flex items-center gap-3 brown-dark">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+
+                <p className="Dm-body">SUPPORTS LOCALS</p>
+              </div>
+              <div className="flex items-center gap-3 brown-dark">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+
+                <p className="Dm-body">DONATES REGULARLY</p>
+              </div>
+              <div className="flex items-center gap-3 brown-dark">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+
+                <p className="Dm-body">CHARITY ART-FAIR</p>
+              </div>
+            </div>
+          </div>
+
+          {/* MOBILE */}
+          <div className="block md:block lg:hidden 2xl:hidden px-[1rem] p-[2rem] md:p-[8rem]">
+            <div className="w-full">
+              <h2 className="text-white text-3xl md:text-4xl 2xl:text-5xl mt-4">
+                Our Little Sactuary In The heart Of Art & Our Commitment To Help
+                The Community
+              </h2>
+              <p className="mt-4 text-white Dm-body">
+                Discover the joy of pottery with our 'Feel Good Pottery for
+                Beginners' experience. Dive into the world of clay with
+                confidence as our expert instructors guide you through the
+                fundamentals.
+              </p>
+
+              <div className="grid gap-3 grid-cols-1 mt-4">
+                <div className="flex items-center gap-3 text-white">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+
+                  <p className="Dm-body">ECO-FRIENDLY</p>
+                </div>
+                <div className="flex items-center gap-3 text-white">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+
+                  <p className="Dm-body">SUPPORTS LOCALS</p>
+                </div>
+                <div className="flex items-center gap-3 text-white">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+
+                  <p className="Dm-body">DONATES REGULARLY</p>
+                </div>
+                <div className="flex items-center gap-3 text-white">
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </span>
+
+                  <p className="Dm-body">CHARITY ART-FAIR</p>
+                </div>
               </div>
             </div>
           </div>

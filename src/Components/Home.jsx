@@ -117,7 +117,7 @@ function Home() {
       </div>
 
       {/* SECTION 5 */}
-      <div className="section--events relative">
+      <div className="section--events">
         <div className="grid 2xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1  items-center">
           <div className="px-[1rem] md:px-[4rem] 2xl:px-[6rem] hidden md:hidden lg:block 2xl:block">
             <Content
@@ -183,7 +183,7 @@ function Home() {
       </div>
 
       {/* SECTION 6 */}
-      <div className="section--sactuary relative">
+      <div className="section--sactuary">
         <div className="grid 2xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1  items-center">
           <div className="2xl:block lg:block md:hidden hidden">
             <img src={Sactuary} alt="Join Events Our Now" />

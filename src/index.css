@@ -102,3 +102,22 @@
   background-position: center;
   background-image: url("./assets/Home/learn.jpg");
 }
+
+/* //////////////////////////////////////////// */
+/* HOME SECTION 4 */
+/* //////////////////////////////////////////// */
+.section-visitblog {
+  background-color: #ede4db;
+}
+
+/* //////////////////////////////////////////// */
+/* HOME SECTION 5 */
+/* //////////////////////////////////////////// */
+
+.section--events {
+  @media (max-width: 1023px) {
+    background-image: url("./assets/Home/Events.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}

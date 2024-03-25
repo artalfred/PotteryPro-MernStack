@@ -12,32 +12,32 @@ import {
 const solutions = [
   {
     name: "HOME",
-    href: "#",
+    href: "/",
     icon: ChartPieIcon,
   },
   {
     name: "ABOUT",
-    href: "#",
+    href: "/about",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "CONTACT",
-    href: "#",
+    href: "/contact",
     icon: FingerPrintIcon,
   },
   {
     name: "BLOG",
-    href: "#",
+    href: "/blog",
     icon: SquaresPlusIcon,
   },
   {
     name: "EVENTS",
-    href: "#",
+    href: "/events",
     icon: ArrowPathIcon,
   },
   {
     name: "COURSES",
-    href: "#",
+    href: "/courses",
     icon: ArrowPathIcon,
   },
 ];

@@ -6,35 +6,23 @@ import Offer from "../assets/Home/Offer.png";
 import LearnImage from "../assets/Home/learnImage.jpg";
 import Events from "../assets/Home/Events.jpg";
 import Sactuary from "../assets/Home/Sactuary.jpg";
+import HeroSection from "../Reusable/HeroSection";
 
 function Home() {
   return (
     <section>
-      <div className="Hero flex justify-center items-center w-full px-[1rem]">
-        <div className="container mx-auto grid justify-center items-center">
-          <h1 className="lg:text-7xl md:text-6xl sm:text-5xl text-4xl text-center text-white">
-            Discover The Calming <br></br> Magic Of Pottery
-          </h1>
-
-          <div className="flex justify-center mt-6">
-            <p className="w-75 text-white sm:w-full md:w-3/4 lg:w-2/4  text-center Dm-body font-light">
-              Welcome to Artful PotteryPro, where artistry meets functionality.
-              Explore our collection of meticulously crafted ceramics, blending
-              tradition with modernity. From elegant dinnerware to bespoke art
-              pieces, discover the beauty of ceramics that redefine your space.
-              Welcome to a world of endless possibilities in ceramics.
-            </p>
-          </div>
-
-          <div className="flex justify-center mt-6">
-            <Button
-              btnName="EXPLORE"
-              btnBackground="light"
-              color={"dark"}
-              btnHover={"btnLight"}
-            />
-          </div>
-        </div>
+      <div className="Hero flex justify-center items-center w-full px-[1rem] w-full">
+        <HeroSection
+          Title={"Discover The Calming Magic of Pottery"}
+          Description={
+            "Welcome to Artful PotteryPro, where artistry meets functionality. Explore our collection of meticulously crafted ceramics, blending tradition with modernity. From elegant dinnerware to bespoke art pieces, discover the beauty of ceramics that redefine your space. Welcome to a world of endless possibilities in ceramics."
+          }
+          btnName={"VISIT BLOG"}
+          btnBackground={"light"}
+          btnColor={"dark"}
+          btnHover={"btnLight"}
+          TextColor={"text-white"}
+        />
       </div>
 
       {/* SECTION 2 */}
@@ -89,31 +77,20 @@ function Home() {
       </div>
 
       {/* SECTION 4 */}
-      <div className="section-visitblog py-[4rem] md:py-[8rem] 2xl:py-[12rem] px-[1rem]">
-        <div className="grid justify-center items-center container mx-auto">
-          <h1 className="lg:text-7xl md:text-6xl sm:text-5xl text-4xl text-center brown-dark">
-            Discover The Calming <br></br> Magic Of Pottery
-          </h1>
-
-          <div className="flex justify-center mt-6">
-            <p className="w-75  brown-dark sm:w-full md:w-3/4 lg:w-2/4  text-center Dm-body font-light">
-              Welcome to Artful PotteryPro, where artistry meets functionality.
-              Explore our collection of meticulously crafted ceramics, blending
-              tradition with modernity. From elegant dinnerware to bespoke art
-              pieces, discover the beauty of ceramics that redefine your space.
-              Welcome to a world of endless possibilities in ceramics.
-            </p>
-          </div>
-
-          <div className="flex justify-center mt-6">
-            <Button
-              btnName="VISIT BLOG"
-              btnBackground="light"
-              color={"dark"}
-              btnHover={"btnLight"}
-            />
-          </div>
-        </div>
+      <div className="bg-semidark">
+        <HeroSection
+          Title={
+            "I Love Writing About How Artful Changed My Life For The Better"
+          }
+          Description={
+            "Welcome to Artful PotteryPro, where artistry meets functionality. Explore our collection of meticulously crafted ceramics, blending tradition with modernity. From elegant dinnerware to bespoke art pieces, discover the beauty of ceramics that redefine your space. Welcome to a world of endless possibilities in ceramics."
+          }
+          btnName={"VISIT BLOG"}
+          btnBackground={"light"}
+          btnColor={"dark"}
+          btnHover={"btnLight"}
+          TextColor={"brown-dark"}
+        />
       </div>
 
       {/* SECTION 5 */}

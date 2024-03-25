@@ -1,6 +1,5 @@
-import { Fragment } from "react";
+import { React, Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import {
   ArrowPathIcon,
   ChartPieIcon,
@@ -8,6 +7,8 @@ import {
   FingerPrintIcon,
   SquaresPlusIcon,
 } from "@heroicons/react/24/outline";
+
+import { Link } from "react-router-dom";
 
 const solutions = [
   {
@@ -82,10 +83,13 @@ export default function NavMobile() {
                   className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50"
                 >
                   <div>
-                    <a href={item.href} className="font-semibold text-gray-900">
+                    <Link
+                      to={item.href}
+                      className="font-semibold text-gray-900"
+                    >
                       {item.name}
                       <span className="absolute inset-0" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               ))}

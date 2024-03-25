@@ -11,11 +11,14 @@ function Content({
   btnBackground,
   btnColor,
   btnHover,
+  Class,
 }) {
   return (
     <div className="w-full">
-      <h6 className="brown-sub-color">{subTitle}</h6>
-      <h2 className="brown-dark text-3xl md:text-4xl 2xl:text-5xl mt-4">
+      <h6 className={`brown-sub-color`}>{subTitle}</h6>
+      <h2
+        className={`brown-dark text-3xl md:text-4xl 2xl:text-5xl mt-4 ${Class}`}
+      >
         {Title}
       </h2>
       <p className="mt-4 brown-dark Dm-body">{DescriptionOne}</p>

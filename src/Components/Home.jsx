@@ -11,7 +11,7 @@ import HeroSection from "../Reusable/HeroSection";
 function Home() {
   return (
     <section>
-      <div className="Hero flex justify-center items-center w-full px-[1rem] w-full">
+      <div className="Hero flex justify-center items-center px-[1rem] w-full">
         <HeroSection
           Title={"Discover The Calming Magic of Pottery"}
           Description={

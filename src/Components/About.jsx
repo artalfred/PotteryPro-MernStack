@@ -11,7 +11,9 @@ import AboutUsThree from "../assets/About/AboutUsThree.jpg";
 
 const AboutContainer = styled.div`
   background-image: url(${AboutUs});
-  height: 50rem;
+  width: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,14 +24,16 @@ const Started = styled.div``;
 function About() {
   return (
     <div className="container mx-auto">
-      <AboutContainer>
-        <HeroSection
-          Title={"All About PotteryPro Get To Know Us"}
-          Description={
-            "Dive into our world and discover the essence of our craft. From our beginnings to our passion for pottery, explore who we are and what drives us. Get to know us better and embark on a journey of creativity and inspiration."
-          }
-          TextColor={"text-white"}
-        />
+      <AboutContainer className="2xl:h-[45rem] lg:h-[45rem] md:h-[40rem] h-svh">
+        <div className="mt-[3rem]">
+          <HeroSection
+            Title={"All About PotteryPro Get To Know Us"}
+            Description={
+              "Dive into our world and discover the essence of our craft. From our beginnings to our passion for pottery, explore who we are and what drives us. Get to know us better and embark on a journey of creativity and inspiration."
+            }
+            TextColor={"text-white"}
+          />
+        </div>
       </AboutContainer>
 
       <div className="bg-semilight py-[4rem] sm:py-[4rem] lg:py-[8rem] px-[1rem] md:px-[4rem] 2xl:px-[12rem]">

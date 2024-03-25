@@ -8,33 +8,22 @@ import Title from "../Reusable/Title";
 import AboutUsOne from "../assets/About/AboutUsOne.jpg";
 import AboutUsTwo from "../assets/About/AboutUsTwo.jpg";
 import AboutUsThree from "../assets/About/AboutUsThree.jpg";
-
-const AboutContainer = styled.div`
-  background-image: url(${AboutUs});
-  width: inherit;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
+import HeroContainerPage from "../Reusable/HeroContainerPage";
 
 const Started = styled.div``;
 
 function About() {
   return (
     <div className="container mx-auto">
-      <AboutContainer className="2xl:h-[45rem] lg:h-[45rem] md:h-[40rem] h-svh">
-        <div className="mt-[3rem]">
-          <HeroSection
-            Title={"All About PotteryPro Get To Know Us"}
-            Description={
-              "Dive into our world and discover the essence of our craft. From our beginnings to our passion for pottery, explore who we are and what drives us. Get to know us better and embark on a journey of creativity and inspiration."
-            }
-            TextColor={"text-white"}
-          />
-        </div>
-      </AboutContainer>
+      <HeroContainerPage backgroundImage={AboutUs}>
+        <HeroSection
+          Title={"All About PotteryPro Get To Know Us"}
+          Description={
+            "Dive into our world and discover the essence of our craft. From our beginnings to our passion for pottery, explore who we are and what drives us. Get to know us better and embark on a journey of creativity and inspiration."
+          }
+          TextColor={"text-white"}
+        />
+      </HeroContainerPage>
 
       <div className="bg-semilight py-[4rem] sm:py-[4rem] lg:py-[8rem] px-[1rem] md:px-[4rem] 2xl:px-[12rem]">
         <div className="relative  grid 2xl:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-24 items-center">

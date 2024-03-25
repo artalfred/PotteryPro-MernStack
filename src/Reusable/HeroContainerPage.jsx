@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 const HeroContainer = styled.div`
   background-image: url(${(props) => props.backgroundImage});
-  width: inherit;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;

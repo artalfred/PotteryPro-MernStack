@@ -8,6 +8,10 @@
   font-style: normal;
 }
 
+.brown-light {
+  background-color: #ede4db;
+}
+
 .brown-sub-color {
   color: #634c2e;
 }
@@ -87,13 +91,6 @@
 
 .btnDark:hover {
   background-color: #634c2e;
-}
-
-/* //////////////////////////////////////////// */
-/* HOME SECTION 2 */
-/* //////////////////////////////////////////// */
-.section--offer {
-  background-color: #fffcf9;
 }
 
 /* //////////////////////////////////////////// */

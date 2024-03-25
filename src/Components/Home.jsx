@@ -7,6 +7,9 @@ import LearnImage from "../assets/Home/learnImage.jpg";
 import Events from "../assets/Home/Events.jpg";
 import Sactuary from "../assets/Home/Sactuary.jpg";
 import HeroSection from "../Reusable/HeroSection";
+import Section from "../Reusable/Section";
+import IconsListMobile from "../Reusable/IconsListMobile";
+import IconListLaptop from "../Reusable/IconListLaptop";
 
 function Home() {
   return (
@@ -26,34 +29,32 @@ function Home() {
       </div>
 
       {/* SECTION 2 */}
-      <div className="section--offer py-[4rem] sm:py-[4rem] lg:py-[8rem] px-[1rem] md:px-[4rem] 2xl:px-[12rem]">
-        <div className="container mx-auto grid 2xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-8 lg:gap-24 items-center">
-          <Content
-            subTitle={"WHAT WE OFFER"}
-            Title={"Ceramic Session To Melt Away The Excess Stress"}
-            DescriptionOne={
-              "Indulge in a rejuvenating ceramic session designed to melt away the excess stress and transport you to a realm of tranquility and creativity. Immerse yourself in the therapeutic art of pottery, where every stroke of clay becomes a cathartic release, and every creation is a testament to your inner peace."
-            }
-            DescriptionTwo={
-              "Join us on a journey of self-discovery and relaxation as you mold, shape, and sculpt your worries away. Whether you're a seasoned ceramic artist or a curious beginner, our expert instructors will guide you through the process with warmth and encouragement, fostering an environment where inspiration flourishes and stress fades into the background."
-            }
-            DescriptionThree={
-              " Experience the soothing sensation of clay beneath your fingertips, the gentle rhythm of the wheel spinning beneath your hands, and the joy of seeing your visions come to life in tangible form. Step into our studio and leave the hustle and bustle of everyday life behind as you embark on a transformative ceramic session that promises to uplift your spirit and rejuvenate your soul."
-            }
-            btnName={"LEARN ABOUT US"}
-            btnBackground={"brown"}
-            btnColor={"white"}
-            btnHover={"btnDark"}
-          />
+      <Section>
+        <Content
+          subTitle={"WHAT WE OFFER"}
+          Title={"Ceramic Session To Melt Away The Excess Stress"}
+          DescriptionOne={
+            "Indulge in a rejuvenating ceramic session designed to melt away the excess stress and transport you to a realm of tranquility and creativity. Immerse yourself in the therapeutic art of pottery, where every stroke of clay becomes a cathartic release, and every creation is a testament to your inner peace."
+          }
+          DescriptionTwo={
+            "Join us on a journey of self-discovery and relaxation as you mold, shape, and sculpt your worries away. Whether you're a seasoned ceramic artist or a curious beginner, our expert instructors will guide you through the process with warmth and encouragement, fostering an environment where inspiration flourishes and stress fades into the background."
+          }
+          DescriptionThree={
+            " Experience the soothing sensation of clay beneath your fingertips, the gentle rhythm of the wheel spinning beneath your hands, and the joy of seeing your visions come to life in tangible form. Step into our studio and leave the hustle and bustle of everyday life behind as you embark on a transformative ceramic session that promises to uplift your spirit and rejuvenate your soul."
+          }
+          btnName={"LEARN ABOUT US"}
+          btnBackground={"brown"}
+          btnColor={"white"}
+          btnHover={"btnDark"}
+        />
 
-          <div className="mt-6">
-            <img src={Offer} alt="What we offer?" />
-          </div>
+        <div className="mt-6">
+          <img src={Offer} alt="What we offer?" />
         </div>
-      </div>
+      </Section>
 
       {/* SECTION 3 */}
-      <div className="section--learn  py-[4rem] sm:py-[4rem] lg:py-[8rem] px-[1rem] md:px-[4rem] 2xl:px-[6rem]">
+      <div className="section--learn py-[4rem] sm:py-[4rem] lg:py-[8rem] px-[1rem] md:px-[4rem] 2xl:px-[6rem]">
         <div className="container mx-auto grid 2xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-8 lg:gap-24 items-center bg-white py-[2rem] md:py-[4rem] px-[2rem] md:px-[4rem] 2xl:px-[6rem]">
           <div>
             <img src={LearnImage} alt="Learn with us" />
@@ -179,80 +180,12 @@ function Home() {
               }
             />
 
-            <div className="grid gap-3 grid-cols-2">
-              <div className="flex items-center gap-3 brown-dark">
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="w-6 h-6"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </span>
-
-                <p className="Dm-body">ECO-FRIENDLY</p>
-              </div>
-              <div className="flex items-center gap-3 brown-dark">
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="w-6 h-6"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </span>
-
-                <p className="Dm-body">SUPPORTS LOCALS</p>
-              </div>
-              <div className="flex items-center gap-3 brown-dark">
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="w-6 h-6"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </span>
-
-                <p className="Dm-body">DONATES REGULARLY</p>
-              </div>
-              <div className="flex items-center gap-3 brown-dark">
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="w-6 h-6"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </span>
-
-                <p className="Dm-body">CHARITY ART-FAIR</p>
-              </div>
-            </div>
+            <IconListLaptop
+              IconOne={"ECO-FRIENDLY"}
+              IconTwo={"SUPPORTS LOCALS"}
+              IconThree={"DONATES REGULARLY"}
+              IconFour={"CHARITY ART-FAIR"}
+            />
           </div>
 
           {/* MOBILE */}
@@ -269,80 +202,13 @@ function Home() {
                 fundamentals.
               </p>
 
-              <div className="grid gap-3 grid-cols-1 mt-4">
-                <div className="flex items-center gap-3 text-white">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-6 h-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </span>
-
-                  <p className="Dm-body">ECO-FRIENDLY</p>
-                </div>
-                <div className="flex items-center gap-3 text-white">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-6 h-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </span>
-
-                  <p className="Dm-body">SUPPORTS LOCALS</p>
-                </div>
-                <div className="flex items-center gap-3 text-white">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-6 h-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </span>
-
-                  <p className="Dm-body">DONATES REGULARLY</p>
-                </div>
-                <div className="flex items-center gap-3 text-white">
-                  <span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-6 h-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </span>
-
-                  <p className="Dm-body">CHARITY ART-FAIR</p>
-                </div>
-              </div>
+              <IconsListMobile
+                IconOne={"ECO-FRIENDLY"}
+                IconTwo={"SUPPORTS LOCALS"}
+                IconThree={"DONATES REGULARLY"}
+                IconFour={"CHARITY ART-FAIR"}
+                Class={"text-white"}
+              />
             </div>
           </div>
         </div>

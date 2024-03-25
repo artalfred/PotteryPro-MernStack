@@ -156,7 +156,7 @@ function About() {
                 <img src={AboutUsBeginners} />
               </div>
 
-              <ContentFloating className="p-[3rem] pb-[4rem] flex items-center brown-light w-full 2xl:w-[37rem] lg:w-[40rem] md:8/12 2xl:h-[40rem] 2xl:top-[4rem] lg:top-[4rem] 2xl:left-[20rem] lg:left-[20rem] left-0 2xl:mt-[0rem] lg:mt-[0rem] md:mt-[4rem] sm:mt-[4rem] mt-[4rem] 2xl:absolute lg:absolute md:static sm:static static">
+              <ContentFloating className="2xl:px-[3rem] lg:px-[3rem] md:px-[2rem] sm:px-[1rem] px-[1rem] py-[3rem] pb-[4rem] flex items-center brown-light w-full 2xl:w-[37rem] lg:w-[40rem] md:8/12 2xl:h-[40rem] 2xl:top-[4rem] lg:top-[4rem] 2xl:left-[20rem] lg:left-[20rem] left-0 2xl:mt-[0rem] lg:mt-[0rem] md:mt-[4rem] sm:mt-[4rem] mt-[4rem] 2xl:absolute lg:absolute md:static sm:static static">
                 <div className="grid">
                   <Content
                     Title={

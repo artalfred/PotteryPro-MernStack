@@ -160,7 +160,7 @@ function About() {
                 <div className="grid">
                   <Content
                     Title={
-                      "Our Little Sactuary In The heart Of Art & Our Commitment To Help The Community"
+                      "Our Little Sanctuary In The heart Of Art & Our Commitment To Help The Community"
                     }
                     DescriptionOne={
                       "Discover our sanctuary nestled in the heart of art, where creativity thrives and community flourishes. With a steadfast commitment to uplifting our community, we strive to make a positive impact through art, collaboration, and support."

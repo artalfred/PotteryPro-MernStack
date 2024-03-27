@@ -11,67 +11,67 @@ const Navigation = () => {
           <div>
             <ul className="flex gap-[4rem]">
               <li>
-                <a
-                  href="/"
+                <NavLink
+                  hrefLang="/"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   HOME
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/about"
+                <NavLink
+                  hrefLang="/about"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   ABOUT
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/contact"
+                <NavLink
+                  hrefLang="/contact"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   CONTACT
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
 
           <div>
-            <a href="/">
+            <NavLink hrefLang="/">
               <img
                 className="logo lg:w-full md:w-full sm:w-full"
                 src={Logo}
                 alt="Artful PotteryPro"
               />
-            </a>
+            </NavLink>
           </div>
 
           <div>
             <ul className="flex gap-[4rem]">
               <li>
-                <a
-                  href="/blog"
+                <NavLink
+                  hrefLang="/blog"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   BLOG
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="events"
+                <NavLink
+                  hrefLang="events"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   EVENTS
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/courses"
+                <NavLink
+                  hrefLang="/courses"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   COURSES
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

@@ -37,8 +37,7 @@ function Home() {
             "Welcome to Artful PotteryPro, where artistry meets functionality. Explore our collection of meticulously crafted ceramics, blending tradition with modernity. From elegant dinnerware to bespoke art pieces, discover the beauty of ceramics that redefine your space. Welcome to a world of endless possibilities in ceramics."
           }
           btnName={"ENROLL NOW"}
-          btnBackground={"light"}
-          btnColor={"dark"}
+          btnBackground={"light brown-dark"}
           btnHover={"btnLight"}
           TextColor={"text-white"}
         />
@@ -104,7 +103,7 @@ function Home() {
           }
           btnName={"VISIT BLOG"}
           btnBackground={"light"}
-          btnColor={"dark"}
+          btnColor={"dark brown-dark"}
           btnHover={"btnLight"}
           TextColor={"brown-dark"}
           SectionName={"Section"}

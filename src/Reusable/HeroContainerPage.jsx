@@ -11,11 +11,16 @@ const HeroContainer = styled.div`
   align-items: center;
 `;
 
-export default function HeroContainerPage({ children, backgroundImage }) {
+export default function HeroContainerPage({
+  children,
+  backgroundImage,
+  BackgroundColor,
+  Class,
+}) {
   return (
     <HeroContainer
       backgroundImage={backgroundImage}
-      className="2xl:h-[45rem] lg:h-[45rem] md:h-[40rem] h-svh pt-[3rem]"
+      className={`2xl:h-[45rem] lg:h-[45rem] md:h-[40rem] h-svh pt-[3rem] ${BackgroundColor} ${Class}`}
     >
       {children}
     </HeroContainer>

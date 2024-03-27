@@ -11,6 +11,22 @@ import Section from "../Reusable/Section";
 import IconsListMobile from "../Reusable/IconsListMobile";
 import IconListLaptop from "../Reusable/IconListLaptop";
 
+import {
+  Animator,
+  Fade,
+  FadeIn,
+  FadeOut,
+  MoveIn,
+  MoveOut,
+  ScrollContainer,
+  ScrollPage,
+  Sticky,
+  StickyIn,
+  StickyOut,
+  ZoomIn,
+  batch,
+} from "react-scroll-motion";
+
 function Home() {
   return (
     <section>

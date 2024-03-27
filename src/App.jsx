@@ -8,6 +8,7 @@ import { Footer } from "./Reusable/Footer";
 import About from "./Components/About";
 import { Courses } from "./Components/Courses";
 import { Events } from "./Components/Events";
+import Blogs from "./Components/Blogs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/blog" element={<Blogs />} />
       </Routes>
       <Footer />
     </>

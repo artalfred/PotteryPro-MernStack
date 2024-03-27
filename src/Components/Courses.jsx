@@ -8,7 +8,6 @@ import BeginnerCourse from "../assets/Courses/BeginnerCourse.jpg";
 import AdvanceCourse from "../assets/Courses/AdvanceCourse.jpg";
 import MasterCourse from "../assets/Courses/MasterCourse.jpg";
 import Button from "../Reusable/Button";
-import CourseVideo from "../assets/Courses/CourseVideo.mp4";
 import CourseImage from "../assets/Courses/CoursesImage.jpg";
 
 export const Courses = () => {
@@ -105,14 +104,14 @@ export const Courses = () => {
           }
           Description={"Art Alfred Bernales"}
           TextColor={"text-white"}
-          Class={"relative  z-10"}
+          SectionName={"Section"}
         />
       </HeroContainerPage>
 
       <HeroContainerPage BackgroundColor={"bg-semilight"}>
         <HeroSection
           Title={
-            "I  Love Writing About How Pottery Changed My Life For The Better"
+            "I Love Writing About How Pottery Changed My Life For The Better"
           }
           Description={
             "Explore the transformative power of pottery through my personal journey. Discover how this ancient art form has brought joy, purpose, and fulfillment to my life."
@@ -122,6 +121,7 @@ export const Courses = () => {
           btnName={"VISIT BLOG"}
           btnHover={"btnDark"}
           btnColor={"white"}
+          SectionName={"Section"}
         />
       </HeroContainerPage>
     </div>

@@ -59,7 +59,7 @@ const Navigation = () => {
               </li>
               <li>
                 <Link
-                  to="/courses"
+                  to="/signUp"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   SIGN UP
@@ -67,7 +67,7 @@ const Navigation = () => {
               </li>
               <li>
                 <Link
-                  to="/courses"
+                  to="/login"
                   className="Dm-body text-white text-[12px] font-medium underline underline-offset-8"
                 >
                   LOGIN

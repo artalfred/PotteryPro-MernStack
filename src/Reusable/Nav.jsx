@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/Logo/ArtfulPotteryPro.png";
 import NavMobile from "./NavMobile";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -11,67 +11,67 @@ const Navigation = () => {
           <div>
             <ul className="flex gap-[4rem]">
               <li>
-                <NavLink
+                <Link
                   to="/"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   HOME
-                </NavLink>
+                </Link>
               </li>
               <li>
-                <NavLink
+                <Link
                   to="/about"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   ABOUT
-                </NavLink>
+                </Link>
               </li>
               <li>
-                <NavLink
+                <Link
                   to="/contact"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   CONTACT
-                </NavLink>
+                </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <NavLink to="/">
+            <Link to="/">
               <img
                 className="logo lg:w-full md:w-full sm:w-full"
                 src={Logo}
                 alt="Artful PotteryPro"
               />
-            </NavLink>
+            </Link>
           </div>
 
           <div>
             <ul className="flex gap-[4rem]">
               <li>
-                <NavLink
+                <Link
                   to="/blog"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   BLOG
-                </NavLink>
+                </Link>
               </li>
               <li>
-                <NavLink
+                <Link
                   to="events"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   EVENTS
-                </NavLink>
+                </Link>
               </li>
               <li>
-                <NavLink
+                <Link
                   to="/courses"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   COURSES
-                </NavLink>
+                </Link>
               </li>
             </ul>
           </div>

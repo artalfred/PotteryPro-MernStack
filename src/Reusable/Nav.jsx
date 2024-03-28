@@ -2,7 +2,6 @@ import React from "react";
 import Logo from "../assets/Logo/ArtfulPotteryPro.png";
 import NavMobile from "./NavMobile";
 import { Link } from "react-router-dom";
-import Button from "./Button";
 
 const Navigation = () => {
   return (

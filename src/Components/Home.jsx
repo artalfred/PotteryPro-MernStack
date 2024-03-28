@@ -40,6 +40,7 @@ function Home() {
           btnBackground={"light brown-dark"}
           btnHover={"btnLight"}
           TextColor={"text-white"}
+          btnLink={"/"}
         />
       </div>
 

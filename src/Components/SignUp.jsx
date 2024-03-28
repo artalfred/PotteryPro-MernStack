@@ -3,8 +3,28 @@ import HeroContainerPage from "../Reusable/HeroContainerPage";
 import Registration from "../assets/Registration/Registration.jpg";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { useGoogleLogin } from "@react-oauth/google";
+import GoogleImage from "../assets/Icons/googleImage.png";
 
 function SignUp() {
+  const login = useGoogleLogin({
+    onSuccess: async (response) => {
+      try {
+        const res = await axios.get(
+          "https://www.googleapis.com/oauth2/v3/userinfo",
+          {
+            headers: {
+              Authorization: `Bearer ${response.access_token}`,
+            },
+          }
+        );
+        console.log(res);
+      } catch (err) {
+        console.log(err);
+      }
+    },
+  });
+
   return (
     <HeroContainerPage backgroundImage={Registration}>
       <Form className="md:mx-[4rem] sm:mx-[1rem] mx-[1rem] form bg-white py-[2rem] rounded-lg 2xl:w-3/6 lg:3/6 md:4/6 sm:full w-full 2xl:px-[6rem] ld:px-[6rem] md:px-[4rem] sm:px-[1rem] px-[1rem]">
@@ -62,10 +82,20 @@ function SignUp() {
 
               <p className="text-center text-white">or</p>
 
-              <div className="flex justify-center gap-3">
-                <div className="border bg-white py-4 px-9 rounded-sm">1</div>
-                <div className="border bg-white py-4 px-9 rounded-sm">1</div>
-                <div className="border bg-white py-4 px-9 rounded-sm">1</div>
+              <div className="flex justify-center">
+                <button
+                  onClick={() => login()}
+                  className="bg-white py-3 px-6 rounded-md"
+                >
+                  <img
+                    style={{
+                      height: "1.8rem",
+                    }}
+                    src={GoogleImage}
+                    alt="Google Image"
+                    title="Google Image"
+                  />
+                </button>
               </div>
             </div>
           </form>

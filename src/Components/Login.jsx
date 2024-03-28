@@ -5,6 +5,7 @@ import styled from "styled-components";
 import axios from "axios";
 import { useGoogleLogin } from "@react-oauth/google";
 import GoogleImage from "../assets/Icons/googleImage.png";
+import { Link } from "react-router-dom";
 
 function Login() {
   const login = useGoogleLogin({
@@ -56,6 +57,13 @@ function Login() {
                 Log In
               </SubmitButton>
             </div>
+
+            <p className="text-center text-white mt-3">
+              Don't have an account yet?{" "}
+              <Link to={"/signUp"} className="underline underline-offset-4">
+                Sign up
+              </Link>
+            </p>
 
             <div className="grid gap-3">
               <p className="text-center text-white">or</p>

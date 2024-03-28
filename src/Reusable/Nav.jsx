@@ -12,7 +12,7 @@ const Navigation = () => {
             <ul className="flex gap-[4rem]">
               <li>
                 <NavLink
-                  hrefLang="/"
+                  to="/"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   HOME
@@ -20,7 +20,7 @@ const Navigation = () => {
               </li>
               <li>
                 <NavLink
-                  hrefLang="/about"
+                  to="/about"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   ABOUT
@@ -28,7 +28,7 @@ const Navigation = () => {
               </li>
               <li>
                 <NavLink
-                  hrefLang="/contact"
+                  to="/contact"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   CONTACT
@@ -38,7 +38,7 @@ const Navigation = () => {
           </div>
 
           <div>
-            <NavLink hrefLang="/">
+            <NavLink to="/">
               <img
                 className="logo lg:w-full md:w-full sm:w-full"
                 src={Logo}
@@ -51,7 +51,7 @@ const Navigation = () => {
             <ul className="flex gap-[4rem]">
               <li>
                 <NavLink
-                  hrefLang="/blog"
+                  to="/blog"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   BLOG
@@ -59,7 +59,7 @@ const Navigation = () => {
               </li>
               <li>
                 <NavLink
-                  hrefLang="events"
+                  to="events"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   EVENTS
@@ -67,7 +67,7 @@ const Navigation = () => {
               </li>
               <li>
                 <NavLink
-                  hrefLang="/courses"
+                  to="/courses"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
                   COURSES

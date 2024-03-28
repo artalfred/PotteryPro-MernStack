@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../assets/Logo/ArtfulPotteryPro.png";
 import NavMobile from "./NavMobile";
 import { Link } from "react-router-dom";
+import Button from "./Button";
 
 const Navigation = () => {
   return (
@@ -28,10 +29,10 @@ const Navigation = () => {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/courses"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
-                  CONTACT
+                  COURSES
                 </Link>
               </li>
             </ul>
@@ -48,15 +49,7 @@ const Navigation = () => {
           </div>
 
           <div>
-            <ul className="flex gap-[4rem]">
-              <li>
-                <Link
-                  to="/blog"
-                  className="Dm-body text-white text-[12px] font-medium"
-                >
-                  BLOG
-                </Link>
-              </li>
+            <ul className="flex items-center gap-[4rem]">
               <li>
                 <Link
                   to="events"
@@ -70,7 +63,15 @@ const Navigation = () => {
                   to="/courses"
                   className="Dm-body text-white text-[12px] font-medium"
                 >
-                  COURSES
+                  SIGN UP
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/courses"
+                  className="Dm-body text-white text-[12px] font-medium underline underline-offset-8"
+                >
+                  LOGIN
                 </Link>
               </li>
             </ul>
@@ -80,13 +81,13 @@ const Navigation = () => {
         <div className="nav-mobile px-[2rem] mt-4">
           <div className="flex justify-between items-center">
             <div>
-              <a href="/">
+              <Link to="/">
                 <img
                   className="logo-mobile"
                   src={Logo}
                   alt="Artful PotteryPro"
                 />
-              </a>
+              </Link>
             </div>
 
             <NavMobile />

@@ -61,6 +61,7 @@ function Home() {
           btnBackground={"brown"}
           btnColor={"white"}
           btnHover={"btnDark"}
+          btnLink={"/about"}
         />
 
         <div className="mt-6">
@@ -88,6 +89,7 @@ function Home() {
             btnBackground={"brown"}
             btnColor={"white"}
             btnHover={"btnDark"}
+            btnLink={"/courses"}
           />
         </div>
       </div>
@@ -107,6 +109,7 @@ function Home() {
           btnHover={"btnLight"}
           TextColor={"brown-dark"}
           SectionName={"Section"}
+          btnLink={"/blog"}
         />
       </div>
 
@@ -130,6 +133,7 @@ function Home() {
               btnBackground={"brown"}
               btnColor={"white"}
               btnHover={"btnDark"}
+              btnLink={"/events"}
             />
           </div>
 

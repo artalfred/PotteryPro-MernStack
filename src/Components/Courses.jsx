@@ -49,6 +49,7 @@ export const Courses = () => {
                 btnHover={"btnDark"}
                 btnColor={"white"}
                 color={"white"}
+                btnLink={"/signUp"}
               />
             </div>
           </div>
@@ -70,6 +71,7 @@ export const Courses = () => {
                 btnHover={"btnDark"}
                 btnColor={"white"}
                 color={"white"}
+                btnLink={"/signUp"}
               />
             </div>
           </div>
@@ -91,6 +93,7 @@ export const Courses = () => {
                 btnHover={"btnDark"}
                 btnColor={"white"}
                 color={"white"}
+                btnLink={"/signUp"}
               />
             </div>
           </div>
@@ -122,6 +125,7 @@ export const Courses = () => {
           btnHover={"btnDark"}
           btnColor={"white"}
           SectionName={"Section"}
+          btnLink={"/blog"}
         />
       </HeroContainerPage>
     </div>

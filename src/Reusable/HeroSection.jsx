@@ -11,6 +11,7 @@ function HeroSection({
   btnHover,
   TextColor,
   SectionName,
+  btnLink,
 }) {
   return (
     <div className="hero--section py-[4rem] md:py-[8rem] 2xl:py-[12rem] px-[1rem]">
@@ -42,6 +43,7 @@ function HeroSection({
             btnBackground={btnBackground}
             color={btnColor}
             btnHover={btnHover}
+            btnLink={btnLink}
           />
         </div>
       </div>

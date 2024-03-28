@@ -42,10 +42,11 @@ function About() {
                   DescriptionTwo={
                     "Join us on a journey of self-discovery and relaxation as you mold, shape, and sculpt your worries away. Whether you're a seasoned ceramic artist or a curious beginner, our expert instructors will guide you through the process with warmth and encouragement."
                   }
-                  btnName={"LEARN ABOUT US"}
+                  btnName={"EXPLORE COURSES"}
                   btnBackground={"brown"}
                   btnColor={"white"}
                   btnHover={"btnDark"}
+                  btnLink={"/courses"}
                 />
               </div>
             </div>
@@ -55,7 +56,6 @@ function About() {
             </div>
           </div>
 
-          {/* TEAM */}
           <div className="mt-[9rem] w-full grid justify-center items-center">
             <div className="w-full flex justify-center">
               <Title
@@ -124,6 +124,7 @@ function About() {
               btnBackground={"brown"}
               btnColor={"white"}
               btnHover={"btnDark"}
+              btnLink={"/courses"}
             />
           </div>
         </div>
@@ -142,6 +143,7 @@ function About() {
             btnBackground={"brown"}
             btnColor={"white"}
             btnHover={"btnDark"}
+            btnLink={"/events"}
           />
 
           <div>

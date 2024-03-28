@@ -12,6 +12,7 @@ function Content({
   btnColor,
   btnHover,
   Class,
+  btnLink,
 }) {
   return (
     <div className="w-full">
@@ -31,6 +32,7 @@ function Content({
           btnBackground={btnBackground}
           color={btnColor}
           btnHover={btnHover}
+          btnLink={btnLink}
         />
       </div>
     </div>

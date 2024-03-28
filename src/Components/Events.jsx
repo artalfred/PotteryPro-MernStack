@@ -53,6 +53,7 @@ export const Events = () => {
                 btnName={"JOIN COURSE"}
                 btnHover={"btnDark"}
                 color={"white"}
+                btnLink={"/signUp"}
               />
             </div>
           </div>
@@ -75,6 +76,7 @@ export const Events = () => {
                 btnHover={"btnDark"}
                 btnColor={"white"}
                 color={"white"}
+                btnLink={"/signUp"}
               />
             </div>
           </div>
@@ -97,6 +99,7 @@ export const Events = () => {
                 btnHover={"btnDark"}
                 btnColor={"white"}
                 color={"white"}
+                btnLink={"/signUp"}
               />
             </div>
           </div>

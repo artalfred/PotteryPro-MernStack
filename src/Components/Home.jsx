@@ -24,7 +24,7 @@ function Home() {
           btnBackground={"light brown-dark"}
           btnHover={"btnLight"}
           TextColor={"text-white"}
-          btnLink={"/login"}
+          btnLink={"/courses"}
         />
       </div>
 

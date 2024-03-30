@@ -49,7 +49,7 @@ export const Courses = () => {
                 btnHover={"btnDark"}
                 btnColor={"white"}
                 color={"white"}
-                btnLink={"/signUp"}
+                btnLink={"/beginner"}
               />
             </div>
           </div>
@@ -71,7 +71,7 @@ export const Courses = () => {
                 btnHover={"btnDark"}
                 btnColor={"white"}
                 color={"white"}
-                btnLink={"/signUp"}
+                btnLink={"/advance"}
               />
             </div>
           </div>
@@ -93,7 +93,7 @@ export const Courses = () => {
                 btnHover={"btnDark"}
                 btnColor={"white"}
                 color={"white"}
-                btnLink={"/signUp"}
+                btnLink={"/masters"}
               />
             </div>
           </div>

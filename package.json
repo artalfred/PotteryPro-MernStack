@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node Server/index.js"
+    "start": "node Server/index.js",
+    "build": "npm run build Client"
   },
   "author": "Art Alfred bernales",
   "license": "ISC",
